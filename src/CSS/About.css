@@ -1,0 +1,15 @@
+.about{
+    text-align: center;
+}
+
+.about-info{
+    display: flex;
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.about-info h3{
+    line-height: 1.5;
+}
