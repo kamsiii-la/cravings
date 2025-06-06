@@ -38,7 +38,7 @@ function App() {
       <>
           <NavBar/>
           <main className="main-content">
-              <Routes>
+              <Routes basename="/cravings">
                   <Route path="/" element={<Home setFavoriteFoods={setFavoriteFoods}/>} />
                   <Route path="/favorites" element={
                   <Favorites
