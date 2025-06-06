@@ -40,13 +40,15 @@
     border: none;
     color: red;
     padding: 0;
-    transition: .5s;
+    transition: .3s;
+    cursor:pointer;
 }
 
 .remove-food:hover{
     background: none;
     border: none;
     transform: scale(1.5);
+    cursor:pointer;
 }
 
 .clear-all-container{
